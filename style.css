@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans&family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #1C1D26;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.navbar{
+    background: linear-gradient(90deg, rgba(58,167,180,1) 25%, rgba(124,69,252,1) 100%);
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.navbar-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-logo-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-brand {
+    padding-top: 0.31rem;
+    margin: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-btn{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+        padding: 0px 15px;
+        color: #ffffff;
+        text-decoration: none;
+}
+.navbar-nav {
+    list-style: none;
+}
+.btn-nav{
+    padding: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    background-color: rgba(91, 29, 235, 0.295);
+}
+
+.side-bar{
+    display: flex;
+}
+.sidebar-element{
+    display: flex;
+    flex-direction:column;
+    background-color: #2a2c3893;
+    box-shadow: rgba(0, 0, 0, 0.10)2.4px 0 0.2px;
+    width: 14vh;
+}
+.text-center{
+    text-align: center;
+    font-size: 12px;
+}
+.sidebar-bottom{
+    margin-top: 100%;
+    padding-bottom: 1%;
+}
+.nav-item{
+    border-bottom: 1px solid #424242;
+}
