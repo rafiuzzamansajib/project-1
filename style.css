@@ -34,7 +34,6 @@ body {
 .nav-btn{
     margin-right: auto;
     margin-left: auto;
-
 }
 .nav-menu{
     display: flex;
@@ -50,11 +49,16 @@ body {
     list-style: none;
 }
 .btn-nav{
-    padding: 5px;
+    padding: .7rem 2rem .7rem;
+    margin-bottom: .5rem;
     font-size: 16px;
     color: #ffffff;
     border: none;
-    background-color: rgba(91, 29, 235, 0.295);
+    background-color: transparent;
+    border-radius: 2px;
+}
+.btn-nav:hover{
+    background-color: rgba(91, 29, 235, 0.295)
 }
 
 .side-bar{
@@ -65,16 +69,30 @@ body {
     flex-direction:column;
     background-color: #2a2c3893;
     box-shadow: rgba(0, 0, 0, 0.10)2.4px 0 0.2px;
-    width: 14vh;
-}
-.text-center{
-    text-align: center;
-    font-size: 12px;
+    max-width: 10vh;
+    max-height: 1080px;
+    font-size: 65%;
 }
 .sidebar-bottom{
-    margin-top: 100%;
-    padding-bottom: 1%;
+    margin-top: 200%;
+    padding-bottom: 11.8vh;
 }
 .nav-item{
     border-bottom: 1px solid #424242;
+    text-align: center;
+}
+.sidebar-bottom > .nav-item:last-child{
+    border: none;
+}
+.nav-item-last{
+    border: none;
+}
+.nav-item:hover{
+    background-color: #424242;
+}
+.bubble{
+    background-color: purple;
+    padding: 5%;
+    margin: 2px;
+    border-radius: 50%;
 }
