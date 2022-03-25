@@ -47,8 +47,12 @@ body {
         color: #ffffff;
         text-decoration: none;
 }
+.nav-link:hover{
+    color: #1C1D26;
+}
 .navbar-nav {
     list-style: none;
+    text-decoration: none;
 }
 .btn-nav{
     padding: .7rem 2rem .7rem;
@@ -71,9 +75,9 @@ body {
     flex-direction:column;
     background-color: #2a2c3893;
     box-shadow: rgba(0, 0, 0, 0.10)2.4px 0 0.2px;
-    max-width: 12vh;
+    max-width: 12.6vh;
     max-height: 1080px;
-    font-size: 67%;
+    font-size: 70%;
 }
 .sidebar-bottom{
     margin-top: 200%;
@@ -82,6 +86,11 @@ body {
 .nav-item{
     border-bottom: 1px solid #424242;
     text-align: center;
+}
+.nav-item-link{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 10px;
 }
 .nav-item-last{
     border: none;
@@ -96,38 +105,54 @@ body {
     border-radius: 50%;
 }
 
-
-/* //Dropdown menu */
+/* Dropdown menu */
 .nav-item-dropdown {
-  position: relative;
-} 
-  :hover > .dropdown-menu {
-    display: block;
-    opacity: 1;
+    position: relative;
+  } 
+  
+  .dropdown-trigger {
+    position: relative;
   }
 
-
-.dropdown-trigger {
-  position: relative;
+/*Mega Dropdown menu */
+:focus + .mega-dropdowm-menu{
+    display: flex;
+    opacity: 1;
 }
+.mega-dropdowm-menu{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 2.9rem;
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+    border-radius: 2px;
+}
+.mega-dropdowm-item{
+    padding: 10px;
+}
+.mega-dropdowm-item img{
+    border-radius: 5px;
+}
+/* Dropdown menu */
   :focus + .dropdown-menu {
     display: block;
     opacity: 1;
   }
 
-
 .dropdown-menu {
-    background-color: #1C1D26;
-    box-shadow: 0rem 0.1rem 0.4rem 0.1rem rgba(0, 0, 0, 0.26);
+    background-color: #ffffff;
     display: inline-block;
     text-align:start;
     position: absolute;
-    top: 2.5rem;
+    top: 2.9rem;
     right: 1rem;
-    display: none;
     opacity: 0;
     transition: opacity 0.5s ease; 
     width: 160px;
+    border-radius: 2px;
 }
 
 .dropdown-menu-item {
@@ -135,6 +160,7 @@ body {
   padding: .2rem;
   text-align: start;
 }
-.dropdown-menu-item:hover{
-    background-color: #424242;
+.dropdown-menu-link{
+    text-decoration: none;
+    color: #1C1D26;
 }
