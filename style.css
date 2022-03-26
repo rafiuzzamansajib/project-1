@@ -28,8 +28,10 @@ body {
     flex-wrap: wrap;
 }
 .navbar-brand {
-    padding-top: 0.31rem;
-    margin: 20px;
+    margin-left: 15px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
     text-decoration: none;
     color: #ffffff;
 }
@@ -40,6 +42,7 @@ body {
 .nav-menu{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5px;
 }
 
 .nav-link{
