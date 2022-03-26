@@ -80,8 +80,8 @@ body {
     font-size: 70%;
 }
 .sidebar-bottom{
-    margin-top: 200%;
-    padding-bottom: 9.4vh;
+    margin-top: 150px;
+    padding-bottom: 9.8vh;
 }
 .nav-item{
     border-bottom: 1px solid #424242;
@@ -105,7 +105,7 @@ body {
     border-radius: 50%;
 }
 
-/* Dropdown menu */
+/* Dropdown */
 .nav-item-dropdown {
     position: relative;
   } 
@@ -118,12 +118,13 @@ body {
 :focus + .mega-dropdowm-menu{
     display: flex;
     opacity: 1;
+    /* overflow: hidden; */
 }
 .mega-dropdowm-menu{
     background-color: #ffffff;
-    display: flex;
+    display: none;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     position: absolute;
     top: 2.9rem;
     opacity: 0;
@@ -132,6 +133,7 @@ body {
 }
 .mega-dropdowm-item{
     padding: 10px;
+    flex: 0 1 24%;
 }
 .mega-dropdowm-item img{
     border-radius: 5px;
