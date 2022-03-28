@@ -106,10 +106,9 @@ body {
 .bubble{
     display: inline-block;
     position: absolute;
-    font-size: 10px;
     line-height: 15px;
     background-color: purple;
-    padding: 0px 5px;
+    padding: 1px 5px;
     margin: -8px 0px 0px -10px;
     border-radius: 75px;
 }
