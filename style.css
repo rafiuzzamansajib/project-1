@@ -19,7 +19,7 @@ body {
     background: linear-gradient(90deg, rgba(58,167,180,1) 25%, rgba(124,69,252,1) 100%);
     display: flex;
     flex-direction: column;
-    padding:.5rem;
+    padding:4px;
 }
 .navbar-inner{
     display: flex;
@@ -75,7 +75,7 @@ body {
 
 .side-bar{
     display: flex;
-    height: 91vh;
+    height: 92.3vh;
 }
 .sidebar-element{
     display: flex;
@@ -83,11 +83,11 @@ body {
     background-color: #2a2c3893;
     box-shadow: rgba(0, 0, 0, 0.10)2.4px 0 0.2px;
     max-width: 10.6vh;
-    line-height: 3.4vh;
+    line-height: 3vh;
     font-size: 1.5vh;
 }
 .sidebar-bottom{
-    margin-top: 100px;
+    margin-top: 148px;
 }
 .nav-item{
     border-bottom: 1px solid #424242;
