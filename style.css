@@ -75,19 +75,19 @@ body {
 
 .side-bar{
     display: flex;
+    height: 91vh;
 }
 .sidebar-element{
     display: flex;
     flex-direction:column;
     background-color: #2a2c3893;
     box-shadow: rgba(0, 0, 0, 0.10)2.4px 0 0.2px;
-    max-width: 12.6vh;
-    max-height: 1080px;
-    font-size: 70%;
+    max-width: 10.6vh;
+    line-height: 3.4vh;
+    font-size: 1.5vh;
 }
 .sidebar-bottom{
-    margin-top: 170px;
-    padding-bottom: 7.7vh;
+    margin-top: 100px;
 }
 .nav-item{
     border-bottom: 1px solid #424242;
