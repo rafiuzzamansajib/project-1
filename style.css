@@ -14,12 +14,13 @@ body {
 }
 .profile-img{
     border-radius: 50%;
+    vertical-align: middle;
 }
 .navbar{
     background: linear-gradient(90deg, rgba(58,167,180,1) 25%, rgba(124,69,252,1) 100%);
     display: flex;
     flex-direction: column;
-    padding:4px;
+    padding: .5rem;
 }
 .navbar-inner{
     display: flex;
@@ -75,7 +76,7 @@ body {
 
 .side-bar{
     display: flex;
-    height: 92.3vh;
+    min-height: 92vh;
 }
 .sidebar-element{
     display: flex;
@@ -83,11 +84,12 @@ body {
     background-color: #2a2c3893;
     box-shadow: rgba(0, 0, 0, 0.10)2.4px 0 0.2px;
     max-width: 10.6vh;
+    max-height: 2000px;
     line-height: 3vh;
     font-size: 1.5vh;
 }
 .sidebar-bottom{
-    margin-top: 148px;
+    margin-top: 22vh;
 }
 .nav-item{
     border-bottom: 1px solid #424242;
